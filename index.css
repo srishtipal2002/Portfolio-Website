@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif ;
+    background-image: url(Images/Background\ Image\ \(1\).jpeg);
+    background-repeat: no-repeat ;
+    background-size: 2000px;
+}
+
+/*logo*/
+#logo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.nav{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    text-align: right;
+    width: 100%;
+}
+
+.name{
+    font-family: Comic Sans MS;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+    color: rgb(161, 12, 12);    
+}
+
+.para{
+    font-family: Comic Sans MS;
+    text-decoration: salmon;
+    text-align: center;
+
+}
+
+.bullets{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:black;
+    list-style-type: none;
+}
+
+.info{
+   
+}
+
+.bb{
+    width: auto;
+    padding: 12px;
+    border: none;
+    margin: 5px 0;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 10px;
+    text-decoration: none;
+  }
+
+.li{
+    color: black;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
