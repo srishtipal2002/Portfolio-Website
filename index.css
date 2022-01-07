@@ -4,12 +4,11 @@ html{
 
 body{
     font-family: 'Times New Roman', Times, serif ;
-    background-image: url(Images/Background\ Image\ \(1\).jpeg);
+    background-image: url('https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80');
     background-repeat: no-repeat ;
-    background-size: 2000px;
+    background-size: cover;
 }
 
-/*logo*/
 #logo{
     width: 100px;
     height: 100px;
@@ -18,13 +17,31 @@ body{
 
 }
 
-.nav{
-    text-decoration: none;
-    color: black;
-    margin-left: 30px;
-    text-align: right;
+/* Navigation */
+
+.topnav {
+    height: auto;
     width: 100%;
+    margin-top: 4px;
+    padding: 10px 50px 0 50px;
+    text-align: left;
 }
+.topnav a {
+    display: inline-block;
+    color: rgb(201, 201, 201);
+    padding: 14px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.topnav a:hover {
+    color: black;
+    transition: ease-in-out bottom 1s, ease-in-out left 1s;
+    bottom: 40px;
+}
+
+
+
 
 .name{
     font-family: Comic Sans MS;
@@ -32,26 +49,8 @@ body{
     text-align: center;
     width: 100%;
     font-size: 100px;
-    color: rgb(161, 12, 12);    
 }
 
-.para{
-    font-family: Comic Sans MS;
-    text-decoration: salmon;
-    text-align: center;
-
-}
-
-.bullets{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color:black;
-    list-style-type: none;
-}
-
-.info{
-   
-}
 
 .bb{
     width: auto;
@@ -62,15 +61,4 @@ body{
     font-size: 25px;
     line-height: 10px;
     text-decoration: none;
-  }
-
-.li{
-    color: black;
-}
-
-.heading{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-
 }
